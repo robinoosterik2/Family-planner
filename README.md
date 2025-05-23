@@ -40,5 +40,9 @@ composer install
 ### Run the Application
 
 ```bash
-./vendor/bin/sail up
+npm run dev:sail
 ```
+
+
+### Create placeholder images
+convert -size ...x... xc:white <name>.png
